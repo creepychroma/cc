@@ -1,0 +1,54 @@
+/* _reset.scss */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure, hr, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset images and media */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset form elements */
+button, input, textarea, select {
+    font: inherit;
+    margin: 0;
+}
+
+/* Set a consistent base font size */
+html {
+    font-size: 100%; /* 16px by default */
+}
+
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+}
